@@ -5,4 +5,8 @@
 
 
 ### Fullstack
-- Currently only a frontend image is availabe 
+- React frontend that calls node backend
+- Node backend
+- In Progress:
+    - Dotnet backend
+    - Database
