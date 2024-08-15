@@ -17,4 +17,4 @@ spec:
         image: node-backend-app:latest
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 8081
+        - containerPort: 80

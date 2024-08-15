@@ -21,3 +21,7 @@
 ### Restart
 
 - kubectl rollout restart deployment/node-deployment
+
+### Logs
+- Find pods with: kubectl get pods
+- kubectl logs -f node-deployment-\<hash>

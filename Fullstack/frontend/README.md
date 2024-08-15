@@ -11,6 +11,10 @@
 - kubectl apply -f frontend-service.yaml
 - kubectl apply -f frontend-deployment.yaml
 
+### Forward to port
+
+- kubectl port-forward service/frontend-service 8082:80
+
 ### Restart
 
 - kubectl rollout restart deployment/frontend-deployment
